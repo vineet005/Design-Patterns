@@ -1,4 +1,4 @@
-package Logging;
+package Singleton;
 
 public class Logger {
     private static Logger instance;
