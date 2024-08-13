@@ -1,5 +1,5 @@
 package Decorator;
 
-public interface TextEditor {
+public interface Text {
     String editText();
 }
