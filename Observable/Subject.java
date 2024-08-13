@@ -1,2 +1,7 @@
-package Observable;public interface Subject {
+package Observable;
+
+public interface Subject {
+    void registerObserver(Observer o);
+    void removeObserver(Observer o);
+    void notifyObserver();
 }
