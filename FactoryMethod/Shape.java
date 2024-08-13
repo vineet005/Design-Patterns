@@ -1,2 +1,5 @@
-package FactoryMethod;public interface Shape {
+package FactoryMethod;
+
+public interface Shape {
+    void draw();
 }
