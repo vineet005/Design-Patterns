@@ -1,2 +1,5 @@
-package Observable;public interface Observer {
+package Observable;
+
+public interface Observer {
+    void update(float temperature, float humidity, float pressure);
 }
